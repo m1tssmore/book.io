@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.nav a.active {
+    border-bottom: 2px solid #6c63ff;
+}
+
+.hero {
+    padding: 120px 40px;
+    background: #dcdcff;
+    text-align: center;
+}
+
+.section {
+    padding: 50px 40px;
+}
+
+.gallery {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    width: 200px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform .2s;
+}
+
+.book-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters input {
+    display: none;
+}
+
+.filter-btn {
+    background: #ddd;
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.book-section {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background: #fff;
+}
+
+.book-cover {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #6c63ff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.share-btn {
+    display: inline-block;
+    background: #6c63ff;
+    color: #fff;
+    margin-right: 8px;
+    padding: 7px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+.footer {
+    background: #eee;
+    text-align: center;
+    padding: 20px;
+}
